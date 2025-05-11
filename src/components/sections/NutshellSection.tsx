@@ -11,7 +11,7 @@ const NutshellItem: React.FC<NutshellItemProps> = ({ iconSrc, title, description
   return (
     <div className="flex flex-col items-center text-center p-4">
       <div className="relative h-16 w-16 mb-4">
-        <Image src={iconSrc} alt={title} layout="fill" objectFit="contain" />
+        <Image src={iconSrc} alt={title} fill className="object-contain" />
       </div>
       <h3 className="text-xl font-semibold text-gray-800 mb-2">{title}</h3>
       <p className="text-sm text-gray-600 leading-relaxed">{description}</p>
