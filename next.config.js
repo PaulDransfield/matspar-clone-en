@@ -1,7 +1,13 @@
 /** @type {import('next').NextConfig} */
+const repo = 'matspar-clone-en';
+const isProduction = process.env.NODE_ENV === 'production';
+
 const nextConfig = {
   output: 'export',
   distDir: 'out',
+  // Use basePath in production for GitHub Pages
+  basePath: isProduction ? `/${repo}` : '',
+  assetPrefix: isProduction ? `/${repo}/` : '',
   images: {
     unoptimized: true,
     domains: [
