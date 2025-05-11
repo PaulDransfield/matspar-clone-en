@@ -1,0 +1,180 @@
+// src/lib/data/sampleProducts.ts
+import type { Product } from '@/components/products/ProductCard';
+
+// Combine all product data from different sections for search
+export const sampleProducts: Product[] = [
+  // Hot Deals products
+  {
+    id: "1",
+    name: "Bregott Butter & Rapeseed Normal Salted 75%",
+    brand: "Bregott",
+    imageUrl: "https://ext.same-assets.com/2461038866/3046215918.webp",
+    href: "/product/bregott-normal-salt",
+    price: 47.90,
+    originalPrice: 58.90,
+  },
+  {
+    id: "2",
+    name: "Brew Coffee Medium Roast",
+    brand: "Arvid Nordquist",
+    imageUrl: "https://ext.same-assets.com/2461038866/1212193402.webp",
+    href: "/product/arvid-nordquist-coffee",
+    price: 75.00,
+    originalPrice: 99.95,
+  },
+  {
+    id: "3",
+    name: "Falun Sausage Classic",
+    brand: "Scan",
+    imageUrl: "https://ext.same-assets.com/2461038866/2943723979.webp",
+    href: "/product/scan-falukorv",
+    price: 30.00,
+    originalPrice: 40.90,
+  },
+  {
+    id: "4",
+    name: "Coca-Cola Zero 1.5L",
+    brand: "Coca-Cola",
+    imageUrl: "https://ext.same-assets.com/2461038866/1576093767.webp",
+    href: "/product/coca-cola-zero",
+    price: 19.50,
+    originalPrice: 21.90,
+  },
+  {
+    id: "5",
+    name: "Priest Cheese 31% Medium Aged",
+    brand: "Arla Ko",
+    imageUrl: "https://ext.same-assets.com/2461038866/2378028912.webp",
+    href: "/product/arla-prast-ost",
+    price: 85.68,
+    originalPrice: 100.08,
+  },
+  {
+    id: "6",
+    name: "iKaffe Oat Drink",
+    brand: "Oatly",
+    imageUrl: "https://ext.same-assets.com/2461038866/2847128974.webp",
+    href: "/product/oatly-ikaffe",
+    price: 16.00,
+    originalPrice: 20.95,
+  },
+
+  // Taco products
+  {
+    id: "taco-1",
+    name: "Organic Minced Beef 12%",
+    brand: "Garant",
+    imageUrl: "https://ext.same-assets.com/2461038866/4096530337.webp",
+    href: "/product/organic-minced-beef",
+    price: 139.00,
+  },
+  {
+    id: "taco-2",
+    name: "Chips Sourcream & Onion",
+    brand: "Estrella",
+    imageUrl: "https://ext.same-assets.com/2461038866/4197152896.webp",
+    href: "/product/estrella-sourcream-onion-chips",
+    price: 22.50,
+    originalPrice: 27.95,
+  },
+  {
+    id: "taco-3",
+    name: "Coca-Cola 1.5L",
+    brand: "Coca-Cola",
+    imageUrl: "https://ext.same-assets.com/2461038866/2426340413.webp",
+    href: "/product/coca-cola-1-5l",
+    price: 19.00,
+    originalPrice: 22.00,
+  },
+  {
+    id: "taco-4",
+    name: "Dip Cheddar Cheese Style",
+    brand: "Santa Maria",
+    imageUrl: "https://ext.same-assets.com/2461038866/1166648733.webp",
+    href: "/product/santa-maria-cheddar-dip",
+    price: 24.50,
+    originalPrice: 36.95,
+  },
+
+  // World Food products
+  {
+    id: "world-1",
+    name: "Organic Natural Tofu",
+    brand: "YiPin",
+    imageUrl: "https://ext.same-assets.com/2461038866/2949954589.webp",
+    href: "/product/organic-natural-tofu",
+    price: 28.90,
+  },
+  {
+    id: "world-2",
+    name: "Coconut Milk",
+    brand: "ICA Asia",
+    imageUrl: "https://ext.same-assets.com/2461038866/578935695.webp",
+    href: "/product/ica-asia-coconut-milk",
+    price: 12.50,
+    originalPrice: 13.95,
+  },
+  {
+    id: "world-3",
+    name: "Spicy Instant Noodles",
+    brand: "Samyang Ramen",
+    imageUrl: "https://ext.same-assets.com/2461038866/622568793.webp",
+    href: "/product/samyang-spicy-noodles",
+    price: 4.00,
+    originalPrice: 7.95,
+  },
+  {
+    id: "world-4",
+    name: "Medium Wheat Tortillas 8-pack",
+    brand: "ICA",
+    imageUrl: "https://ext.same-assets.com/2461038866/2897453230.webp",
+    href: "/product/ica-medium-tortillas",
+    price: 13.33,
+    originalPrice: 14.50,
+  },
+  {
+    id: "world-5",
+    name: "Chicken Flavored Instant Noodles",
+    brand: "Samyang Ramen",
+    imageUrl: "https://ext.same-assets.com/2461038866/751183202.webp",
+    href: "/product/samyang-chicken-noodles",
+    price: 4.00,
+    originalPrice: 7.95,
+  },
+  {
+    id: "world-6",
+    name: "Sweet Chili Sauce Original",
+    brand: "Santa Maria",
+    imageUrl: "https://ext.same-assets.com/2461038866/3587167626.webp",
+    href: "/product/santa-maria-sweet-chili",
+    price: 24.00,
+    originalPrice: 31.00,
+  },
+
+  // Additional products for variety
+  {
+    id: "add-1",
+    name: "Swedish Crisp Bread",
+    brand: "Wasa",
+    imageUrl: "https://ext.same-assets.com/2461038866/107951174.webp", // Reusing an image, would need proper one
+    href: "/product/wasa-crispbread",
+    price: 18.95,
+  },
+  {
+    id: "add-2",
+    name: "Organic Whole Milk 3%",
+    brand: "Arla",
+    imageUrl: "https://ext.same-assets.com/2461038866/2492016397.webp", // Reusing an image, would need proper one
+    href: "/product/arla-organic-milk",
+    price: 15.90,
+  },
+  {
+    id: "add-3",
+    name: "Organic Free-Range Eggs 10-pack",
+    brand: "KRAV",
+    imageUrl: "https://ext.same-assets.com/2461038866/1763607979.webp", // Reusing an image, would need proper one
+    href: "/product/krav-organic-eggs",
+    price: 39.90,
+    originalPrice: 45.90,
+  },
+];
